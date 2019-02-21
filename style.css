@@ -1,0 +1,41 @@
+
+
+
+html {
+  background-color: black;
+}
+
+.container {
+  width: auto;
+  white-space: nowrap;
+  overflow-x:auto;
+  overflow-y:hidden;
+  bottom: 5%;
+  position: absolute;
+}
+
+.container div {
+  display: inline-block;
+  overflow: hidden;
+  align-items: baseline;
+
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+  border: 1px white solid;
+  margin-right:-2px;
+
+}
+
+.container video{
+
+  width: 500px;
+  height: auto;
+  align-self: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  border: 1px white solid;
+
+}
